@@ -22,3 +22,22 @@ axios.get(url).then(response => {
 const logTodo = (id: number, title: string, completed: boolean)=>{
     console.log(`There is the ${id}, the ${title} and ${completed}`)
 }
+
+
+
+//Types 
+const today = new Date();
+
+today.getMonth();
+
+const person = {
+    age: 20
+};
+
+class Color{
+
+
+
+}
+
+const red = new Color();
