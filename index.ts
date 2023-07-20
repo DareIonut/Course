@@ -26,18 +26,21 @@ const logTodo = (id: number, title: string, completed: boolean)=>{
 
 
 //Types 
-const today = new Date();
-
-today.getMonth();
-
-const person = {
-    age: 20
-};
-
-class Color{
-
-
-
+interface Car{
+    name: string,
+    color: string,
+    age: number,
+    lether: boolean,
+    cruiseControl: boolean,
 }
 
-const red = new Color();
+const machine: Car = {
+    name: "vw",
+    color: "red",
+    age: 10,
+    lether: false,
+    cruiseControl: true
+}
+
+
+console.log(machine.name);
