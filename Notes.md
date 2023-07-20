@@ -1,9 +1,8 @@
 # TypeScript Course Notes
 
-##Util commands
+## Util commands
 
 - npm install typescript ts-node axios </br>
-  **Run the compiler**
 - ts-node index.js </br>
 - typescript index.js </br>
 
@@ -20,3 +19,8 @@ const car: string = "Land Rover"
 ```Typescript
 let car = "Land Rover"
 ```
+### Types
+ **Primitive Types**: number, string, boolean, void, null, undefined, symbol. </br>
+ **Object Types**: functions, arrays, classes and objects.</br>
+### Object Literal Annotations 
+21
