@@ -52,3 +52,14 @@ const sumAll: (x:number, y:number) => number = (x:number, y:number) => {
 let numberAboveZero: boolean | number = false; 😄
 ```
 ## Section 4 - Annotations with Functions and Objects 🥇
+Missing because i forgot to save.
+## Section 5 - Arrays 
+* Typescript can do type inference when extracting values from an array.
+* Can prevent from adding wrong type values.
+* Can help with methods: map, forEach, reduce.
+* Flexible - arrays can still contain multiple different types.
+### Multiple array values example
+```Javascript
+const importDates:(Date | string)[] = [new Date(), "2023-07-30"];
+```
+##Section 6 - Tuples
