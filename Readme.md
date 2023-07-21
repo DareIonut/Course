@@ -1,14 +1,14 @@
-# TypeScript Course Notes
+# TypeScript Course Notes 📓
 
 ## Util commands
+```console
+npm install typescript ts-node axios 
+ts-node index.js 
+typescript index.js 
+```
+## Section 3 - Type annotations in Action 🥇
 
-- npm install typescript ts-node axios </br>
-- ts-node index.js </br>
-- typescript index.js </br>
-
-## Section 3 - Type annotations in Action
-
-- **Type annotations** → When we tell typescript what type has a variable, function, etc. For example: number, string, etc. </br>
+- **Type annotations** → When we tell typescript what type has a variable, function, etc. For example: number, string, etc. 
 
 ```Typescript
 const car: string = "Land Rover"
@@ -20,8 +20,8 @@ const car: string = "Land Rover"
 let car = "Land Rover"
 ```
 ### Types
- **Primitive Types**: number, string, boolean, void, null, undefined, symbol. </br>
- **Object Types**: functions, arrays, classes and objects.</br>
+ **Primitive Types**: number, string, boolean, void, null, undefined, symbol. 
+ **Object Types**: functions, arrays, classes and objects.
 ### Object Literal Annotations 
 ```Javascript
 const point: { x: number; y: number } = { x: 20, y: 30 };
@@ -49,6 +49,6 @@ const sumAll: (x:number, y:number) => number = (x:number, y:number) => {
 **Variable definition with OR symbol:**
 
 ```Javascript
-let numberAboveZero: boolean | number = false;
+let numberAboveZero: boolean | number = false; 😄
 ```
-## Section 4 - Annotations with Functions and Objects
+## Section 4 - Annotations with Functions and Objects 🥇
