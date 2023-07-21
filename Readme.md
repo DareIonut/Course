@@ -62,4 +62,4 @@ Missing because i forgot to save.
 ```Javascript
 const importDates:(Date | string)[] = [new Date(), "2023-07-30"];
 ```
-##Section 6 - Tuples
+## Section 6 - Tuples
