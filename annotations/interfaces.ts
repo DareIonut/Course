@@ -35,6 +35,5 @@ const printReport = (item: Reportable): void => {
   console.log(item.summary());
 };
 
-printVehicle(oldCivic);
 printReport(oldCivic);
 printReport(drink);

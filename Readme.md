@@ -124,3 +124,56 @@ const printReport = (item: Reportable): void => {
 * Objects/classes can decide to 'implement' a given interface to work with a function.
 
 ### Section 8 - Building Functionality with Classes
+
+**Classes** - Represents a blueprint to create on object with some fields (values) and methods (functions) to represent a 'thing', object.
+
+**Inheritance example:**
+
+```Javascript
+class Car extends Vehicle {}
+```
+
+- Access modifiers:
+
+* public - method can be called anywhere.
+* private - method can be called by other methods in this class.
+* protected - method can be called by other methods in this class or by other methods in child classe.
+
+## Constructor method
+
+**Constructor function** is called every time we initalize a new instance of the specific Class.
+
+- With the help of construct function we can pass arguments to the instance.
+
+```Javascript
+class Vehicle {
+  color: string = "red";
+
+  constructor(color: string){
+    this.color = color;
+}
+
+const vehicle = new Vehicle('orange');
+```
+
+- The short alternative for this is:
+
+```Javascript
+class House {
+  constructor(public squareMeters: number) {}
+}
+const appartament = new House(70);
+```
+
+**Example of usage for super inheritace of constructor:**
+
+```Javascript
+//Super expample for inheritance
+class Bathroom extends House {
+  constructor(private wallColor: string, squareMeters: number) {
+    super(squareMeters);
+  }
+}
+```
+
+Note: We have to use super fuction because Bathroom is an extension of House.
