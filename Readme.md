@@ -81,7 +81,13 @@ const importDates:(Date | string)[] = [new Date(), "2023-07-30"];
 
 ## Section 6 - Tuples
 
-This section is gonna be noted after arriving at section 9 because i missed the notes
+- Rarely used.
+
+Example of tuple:
+
+```Javascript
+const pepsi: [string, boolean, number] = ['brown', true, 40];
+```
 
 ## Section 7 - Interfaces
 
