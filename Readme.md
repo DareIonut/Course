@@ -63,8 +63,9 @@ let numberAboveZero: boolean | number = false; 😄
 ```
 
 ## Section 4 - Annotations with Functions and Objects 🥇
-
-Missing because i forgot to save.
+**See exapmples here:**
+[x](https://github.com/DareIonut/Course/blob/main/annotations/functions.ts)
+[x](https://github.com/DareIonut/Course/blob/main/annotations/objects.ts)
 
 ## Section 5 - Arrays
 
