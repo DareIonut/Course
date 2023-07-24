@@ -6,6 +6,8 @@
 npm install typescript ts-node axios
 ts-node index.js
 typescript index.js
+npx parce index.html
+npm install @faker-js/faker → import { faker } from "@faker-js/faker";
 ```
 
 ## Section 3 - Type annotations in Action 🥇
@@ -135,20 +137,20 @@ const {
 }: { coords: { lat: number; lng: number } } = profile;
 ```
 
-## Section 5 - Arrays
+## Section 5 - Arrays 🥇
 
 - Typescript can do type inference when extracting values from an array.
 - Can prevent from adding wrong type values.
 - Can help with methods: map, forEach, reduce.
 - Flexible - arrays can still contain multiple different types.
 
-### Multiple array values example
+## Multiple array values example
 
 ```Javascript
 const importDates:(Date | string)[] = [new Date(), "2023-07-30"];
 ```
 
-## Section 6 - Tuples
+## Section 6 - Tuples 🥇
 
 - Rarely used.
 
@@ -158,7 +160,7 @@ Example of tuple:
 const pepsi: [string, boolean, number] = ['brown', true, 40];
 ```
 
-## Section 7 - Interfaces
+## Section 7 - Interfaces 🥇
 
 - For achiving a strong reuse we must use **Interfaces + Classes**.
 - With **Interfaces** we can create new Types in Typescript where we can describe the property names and value types of an object.
@@ -198,7 +200,7 @@ const printReport = (item: Reportable): void => {
 * Create functions taht accept arguments that are typed with interfaces.
 * Objects/classes can decide to 'implement' a given interface to work with a function.
 
-### Section 8 - Building Functionality with Classes
+## Section 8 - Building Functionality with Classes 🥇
 
 **Classes** - Represents a blueprint to create on object with some fields (values) and methods (functions) to represent a 'thing', object.
 
@@ -252,3 +254,9 @@ class Bathroom extends House {
 ```
 
 Note: We have to use super fuction because Bathroom is an extension of House.
+
+## Section 9 - Design Patterns 🥇
+**Type definition File** - Provide information for typescript compilator about a library: functions, arguments, values, etc. 
+* Not all libraryes comes with implicit type definition.
+
+Episode 60!
