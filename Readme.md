@@ -64,7 +64,76 @@ let numberAboveZero: boolean | number = false; 😄
 
 ## Section 4 - Annotations with Functions and Objects 🥇
 
-Missing because i forgot to save.
+**Functions and destructuring example**
+
+```Javascript
+//Section 4
+//More on function annotations
+const add = (a: number, b: number): number => {
+  console.log(a + b);
+  return a + b;
+};
+
+function divide(a: number, b: number): number {
+  return a;
+}
+
+const multiply = function (a: number, b: number): number {
+  return b;
+};
+
+const logMessage = (message: string): void => {
+  console.log(message);
+};
+
+logMessage('You Rock!');
+
+//Destructuring
+
+const weather = {
+  date: new Date(),
+  weather: 'sunny',
+  fog: false,
+};
+
+const getWeather = ({
+  date,
+  weather,
+  fog,
+}: {
+  date: Date;
+  weather: string;
+  fog: boolean;
+}): void => {
+  console.log(date, weather, fog);
+};
+
+getWeather(weather);
+
+```
+
+**Objects annotation and destructuring**
+
+```Javascript
+const profile = {
+  name: 'Alex',
+  age: 23,
+  coords: {
+    lat: 3323,
+    lng: 34,
+  },
+  setAge(age: number): void {
+    this.age = age;
+  },
+};
+
+
+//Destructuring
+const { age }: { age: number } = profile;
+const {
+  coords: { lat, lng },
+}: { coords: { lat: number; lng: number } } = profile;
+```
 
 ## Section 5 - Arrays
 
