@@ -256,5 +256,6 @@ class Bathroom extends House {
 Note: We have to use super fuction because Bathroom is an extension of House.
 
 ### Section 9 - Design Patterns 🥇
-
+**Type definition File** - Provide information for typescript compilator about a library: functions, arguments, values, etc. 
+* Not all libraryes comes with implicit type definition.
 
