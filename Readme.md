@@ -259,3 +259,4 @@ Note: We have to use super fuction because Bathroom is an extension of House.
 **Type definition File** - Provide information for typescript compilator about a library: functions, arguments, values, etc. 
 * Not all libraryes comes with implicit type definition.
 
+Episode 60!
