@@ -258,5 +258,19 @@ Note: We have to use super fuction because Bathroom is an extension of House.
 ## Section 9 - Design Patterns 🥇
 **Type definition File** - Provide information for typescript compilator about a library: functions, arguments, values, etc. 
 * Not all libraryes comes with implicit type definition.
+##Hiding functionality
+```Javascript
+export class CustomMap {
+  private googleMap: google.maps.Map;
 
-Episode 60!
+  constructor() {
+    this.googleMap = new google.maps.Map(
+      document.getElementById('map') as HTMLElement,
+      {
+        zoom: 1,
+        center: { lat: 0, lng: 0 },
+      }
+    );
+  }
+}
+```
