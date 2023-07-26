@@ -6,10 +6,12 @@
 npm install typescript ts-node axios
 ts-node index.js
 typescript index.js
-npx parce index.html
+npx parcel index.html
 npm install @faker-js/faker → import { faker } from "@faker-js/faker";
+tsc --init
+tsc
+tsc -w
 ```
-
 ## Section 3 - Type annotations in Action 🥇
 
 - **Type annotations** → When we tell typescript what type has a variable, function, etc. For example: number, string, etc.
