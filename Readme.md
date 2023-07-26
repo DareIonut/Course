@@ -11,6 +11,8 @@ npm install @faker-js/faker → import { faker } from "@faker-js/faker";
 tsc --init
 tsc
 tsc -w
+npm install nodemon concurrently
+node build/index.html
 ```
 ## Section 3 - Type annotations in Action 🥇
 
