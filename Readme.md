@@ -281,6 +281,8 @@ export class CustomMap {
 }
 ```
 # Section 10 - **Type guard **
+
+**Used to restore access.**
 * Syntax of a type guard = instanceof {Array}
 
   * To initiate a type guard there are two rules:
