@@ -280,3 +280,6 @@ export class CustomMap {
   }
 }
 ```
+# Section 10 - Type guard 
+* Syntax of a type guard = instanceof {Array}
+
