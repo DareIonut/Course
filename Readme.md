@@ -280,6 +280,10 @@ export class CustomMap {
   }
 }
 ```
-# Section 10 - Type guard 
+# Section 10 - **Type guard **
 * Syntax of a type guard = instanceof {Array}
+
+  * To initiate a type guard there are two rules:
+    - To initiate a type guard for a primitive type we use **typeof**.
+    - To initiate a typeguard for other type of value we use **instanceof**.
 
